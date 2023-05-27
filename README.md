@@ -1,40 +1,70 @@
-# summer-practice-hackathon-2k23
+# Getting Started with Create React App
 
-Wifi Name: HGGuest
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Wifi Pass: haufegroup!
+## Available Scripts
 
-Developer: <ADD_YOUR_FULL_NAME>
+In the project directory, you can run:
 
-In this hackathon challenge, you will be tasked with developing a Multi-Factor Authentication (MFA) code generator. Don't worry it's not as scary as it sounds.
+### `npm start`
 
-**Requirements:**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Develop a web application that runs locally in the browser
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-* A user can add a new MFA name-code pair, by providing a name for the code (if you ever wondered how to use a form tag, now’s the time to try!)
-* A user can view all the available MFA name-code pairs
-* A user can delete an existing MFA name-code pair.
-* All MFA codes are regenerated once every 30 seconds (see window.setInterval())
+### `npm test`
 
-Codes are made of 6 randomly generated digits. Bet you did this in college already.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Bonus:**
+### `npm run build`
 
-* When the browser tab is closed and reopened, I want all my registered MFA name-code pairs to be preserved (see localStorage)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* The name of the new MFA name-code pairs is obtained via call to https://swapi.dev/api/people. Ever made an API call before? “fetch()”-ing information is simple once you get the hang of it.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Or, if you want to make it harder and more impressive:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* The name of the new MFA name-code pairs is obtained via call to the OpenAI API
+### `npm run eject`
 
-* BYOF (bring your own feature) - go wild!
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Notes:**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Documentation and clean code will be highly appreciated.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Have fun!
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Best of luck! Happy hacking!
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
